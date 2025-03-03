@@ -14,10 +14,10 @@ namespace RiyaStudyGroup.Controllers
             List<Models.StudentModel> students = new List<Models.StudentModel>();
 
             students.Add(new Models.StudentModel { StudentNumber = "u23648156", Name = "Riya", Surname = "Naidoo", Email = "u23648156@tuks.co.za" });
-            students.Add(new Models.StudentModel { StudentNumber = "u01234567", Name = "Jane", Surname = "Doe", Email = "u01234567@tuks.co.za" });
-            students.Add(new Models.StudentModel { StudentNumber = "u25976414", Name = "John", Surname = "Smith", Email = "u25976414@tuks.co.za" });
-            students.Add(new Models.StudentModel { StudentNumber = "u20569245", Name = "Liam", Surname = "Payne", Email = "u20569245@tuks.co.za" });
-            students.Add(new Models.StudentModel { StudentNumber = "u20695842", Name = "Jayden", Surname = "Perf", Email = "u20695842@tuks.co.za" });
+            students.Add(new Models.StudentModel { StudentNumber = "u23563908", Name = "Anzelle", Surname = "Van Beek", Email = "u23563908@tuks.co.za" });
+            students.Add(new Models.StudentModel { StudentNumber = "u23819767", Name = "Cynthia", Surname = "Mashaba", Email = "u23819767@tuks.co.za" });
+            students.Add(new Models.StudentModel { StudentNumber = "u23585073", Name = "Lwandiso", Surname = "Thanda", Email = "u23585073@tuks.co.za" });
+            students.Add(new Models.StudentModel { StudentNumber = "u23699869", Name = "Kiara", Surname = "Govender", Email = "u23699869@tuks.co.za" });
 
             return View(students);
         }
