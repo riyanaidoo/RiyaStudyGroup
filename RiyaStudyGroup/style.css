@@ -1,0 +1,17 @@
+﻿/*body {
+}*/
+
+.btn-link {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 8px 16px; /* Padding around the text */
+    text-align: center;
+    text-decoration: none; /* No underline */
+    display: inline-block;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+    .btn-link:hover {
+        background-color: #45a049; /* Darker green when hovering */
+    }

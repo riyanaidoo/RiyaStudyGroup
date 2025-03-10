@@ -7,7 +7,7 @@
 <h2>ListStudent</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @*@Html.ActionLink("Create New", "Create")*@
 </p>
 <table class="table">
     <tr>
@@ -23,7 +23,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Email)
         </th>
-        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.myLink) 
+        </th>
     </tr>
 
 @foreach (var item in Model) {
@@ -41,9 +43,11 @@
             @Html.DisplayFor(modelItem => item.Email)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
             @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            <!--@Html.ActionLink("Link", "Link" , new {/* id=item.PrimaryKey */})-->
+            <a href="@Url.Content(item.myLink)" class="btn-link" target="_blank">LINK</a>
         </td>
     </tr>
 }

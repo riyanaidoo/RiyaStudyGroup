@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Person 1 - Riya Naidoo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            margin-bottom: 20px;
+        }
+
+        .menu {
+            border: 2px solid white; /* Border around the entire menu */
+            background-color: black; /* Background color for the menu bar */
+            padding: 5px; /* Padding for better spacing */
+            display: inline-block;
+        }
+
+            .menu a {
+                margin-right: 10px;
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                padding: 5px 10px;
+                display: inline-block;
+                border-right: 1px solid white;
+            }
+
+                /* Remove right border from the last menu item */
+                .menu a:last-child {
+                    border-right: none;
+                }
+
+                /* Hover effect */
+                .menu a:hover {
+                    background-color: grey;
+                }
+
+                /* Active link styling */
+                .menu a.active {
+                    background-color: green; /* Set active link background color */
+                }
+    </style>
+</head>
+<body>
+    <h1>Person 1 - Riya Naidoo</h1>
+    
+    <div class="menu">
+        <a href="/Home/Index" >MAIN</a>
+        <a href="/Students/ListStudent">LIST</a>
+        <a href="Riya.html" class="active">Riya</a>
+        <a href="Cynthia.html">Cynthia</a>
+        <a href="Kiara.html">Kiara</a>
+        <a href="Lwandiso.html">Lwandiso</a>
+        <a href="Anzelle.html">Anzelle</a>
+        <a href="javascript:history.back()">BACK</a>
+
+    </div>
+    <nav>
+        <ul>
+            <!--<li><a href="../index.html">Home</a></li>-->
+            <li><a href="../Views/Students/ListStudent.cshtml">List of People</a></li>
+            <li><a href="Riya.html">John</a></li>
+            <li><a href="Anzelle.html">Jane</a></li>
+            <li><a href="Cynthia.html">Sam</a></li>
+            <li><a href="Lwandiso.html">Emily</a></li>
+            <li><a href="Kiara.html">Alex</a></li>
+            <li><a href="javascript:history.back()">Previous Page</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Background</h2>
+        <img src="Images/person01.jpg" alt="John's Photo" class="profile-img">
+        <p>John Doe is a software engineering student who enjoys coding and solving complex problems...</p>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section>
+        <h2>Hobbies</h2>
+        <p>John enjoys playing chess, reading science fiction books, and hiking.</p>
+        <img src="Images/hobby01.jpg" alt="John's Hobby" class="hobby-img">
+    </section>
+
+    <!-- Modules Table -->
+    <section>
+        <h2>Registered Modules</h2>
+        <table>
+            <tr>
+                <th>Module Code</th>
+                <th>Module Name</th>
+            </tr>
+            <tr>
+                <td>CSC101</td>
+                <td>Introduction to Programming</td>
+            </tr>
+            <tr>
+                <td>MAT102</td>
+                <td>Calculus</td>
+            </tr>
+            <tr>
+                <td>PHY103</td>
+                <td>Physics</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
