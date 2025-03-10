@@ -3,9 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Person 1 - Riya Naidoo</title>
-    <style>
+    <link href="../Content/Style.css" rel="stylesheet" />
+    <!--<style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
         .menu {
@@ -16,7 +19,8 @@
             border: 2px solid white; /* Border around the entire menu */
             background-color: black; /* Background color for the menu bar */
             padding: 5px; /* Padding for better spacing */
-            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
         }
 
             .menu a {
@@ -43,7 +47,9 @@
                 .menu a.active {
                     background-color: green; /* Set active link background color */
                 }
-    </style>
+
+               
+    </style>-->
 </head>
 <body>
     <h1>Person 1 - Riya Naidoo</h1>
@@ -59,10 +65,10 @@
         <a href="javascript:history.back()">BACK</a>
 
     </div>
-    <nav>
-        <ul>
+    <!--<nav>
+        <ul>-->
             <!--<li><a href="../index.html">Home</a></li>-->
-            <li><a href="../Views/Students/ListStudent.cshtml">List of People</a></li>
+            <!--<li><a href="../Views/Students/ListStudent.cshtml">List of People</a></li>
             <li><a href="Riya.html">John</a></li>
             <li><a href="Anzelle.html">Jane</a></li>
             <li><a href="Cynthia.html">Sam</a></li>
@@ -70,19 +76,21 @@
             <li><a href="Kiara.html">Alex</a></li>
             <li><a href="javascript:history.back()">Previous Page</a></li>
         </ul>
-    </nav>
+    </nav>-->
 
     <section>
-        <h2>Background</h2>
-        <img src="Images/person01.jpg" alt="John's Photo" class="profile-img">
-        <p>John Doe is a software engineering student who enjoys coding and solving complex problems...</p>
+        <h2>Biography and Background</h2>
+        <div class="content">
+            <img src="../Images/peter-parker-Cropped.webp" alt="Riya's' Biography" class="profile-img">
+            <p>John Doe is a software engineering student who enjoys coding and solving complex problems...</p>
+        </div>
     </section>
 
     <!-- Hobbies Section -->
     <section>
         <h2>Hobbies</h2>
         <p>John enjoys playing chess, reading science fiction books, and hiking.</p>
-        <img src="Images/hobby01.jpg" alt="John's Hobby" class="hobby-img">
+        <img src="Images/steve-rogers.webp" alt="Riya's Hobby" class="hobby-img">
     </section>
 
     <!-- Modules Table -->

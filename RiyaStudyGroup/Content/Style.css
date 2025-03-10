@@ -1,0 +1,58 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-link {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 8px 16px; /* Padding around the text */
+    text-align: center;
+    text-decoration: none; /* No underline */
+    display: inline-block;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+    .btn-link:hover {
+        background-color: #45a049; /* Darker green when hovering */
+    }
+
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.menu {
+    border: 2px solid white; /* Border around the entire menu */
+    background-color: black; /* Background color for the menu bar */
+    padding: 5px; /* Padding for better spacing */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .menu a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        display: inline-block;
+        border-right: 1px solid white;
+    }
+
+        /* Remove right border from the last menu item */
+        .menu a:last-child {
+            border-right: none;
+        }
+
+        /* Hover effect */
+        .menu a:hover {
+            background-color: grey;
+        }
+
+        /* Active link styling */
+        .menu a.active {
+            background-color: green; /* Set active link background color */
+        }
